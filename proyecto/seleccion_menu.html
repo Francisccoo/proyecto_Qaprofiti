@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+
+	<style>
+		.hidden {
+			display: none;
+		}
+	</style>
+
+	<script>
+		var pedido = 
+
+		function mostrarPedido() {
+			
+		}
+	</script>
+</head>
+<body>
+	<div class="container-fluid">
+		 <select id="lista_seleccion_1" size="4" multiple="true">
+  <option value="volvo">Pasta</option>
+  <option value="saab">Pizza</option>
+  <option value="mercedes">Fideos</option>
+  <option value="audi">Sushi</option>
+</select> 
+
+ <select id="lista_seleccion_2" size="4">
+  <option value="volvo">Mundo pasta</option>
+  <option value="saab">Telepizza</option>
+  <option value="mercedes">Mr Noodle</option>
+  <option value="audi">Japonia</option>
+</select> 
+
+<br>
+
+<button class="btn btn-primary" onclick="mostrarPedido()">Realizar pedido</button>
+
+	<div id="bloque_pedido" class="hidden">
+		<p id="texto_pedido">Tu pedido:</p>
+		<p>Platos seleccionados: <span id="platos_seleccionados"></p>
+	</div>
+
+	
+
+	</div>
+</body>
+</html>
